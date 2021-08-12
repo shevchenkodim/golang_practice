@@ -45,4 +45,11 @@ package basics
 	users[0] = "Tom"
 	users[1] = "Alice"
 	users[2] = "Bob"
+
+	var numbers1 [] int
+	start1 := time.Now()
+	for i := 0; i <= 1000000; i++{
+		numbers1 = append(numbers1, rand.Intn(10000))
+	}
+	fmt.Println(time.Since(start1).Seconds())
 */
