@@ -56,6 +56,6 @@ type name_interface interface{
 	air := Aircraft{"365"}
 	vehicles := [...]Vehicle{tesla, volvo, air}
 	for _, vehicle := range vehicles {
-	vehicle.move()
+		vehicle.move()
 	}
 */
